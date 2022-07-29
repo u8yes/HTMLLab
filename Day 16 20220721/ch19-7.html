@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .sample{
+            width: 100px;
+            height: 100px;
+            background: green;
+            border-style: solid;
+            border-radius: 60px;
+            position: relative;
+            
+           -webkit-animation-name: example;
+           animation-name:example;
+
+           -webkit-animation-duration: 8s;
+           animation-duration: 8s;
+
+           -webkit-animation-delay: 2s;
+           animation-delay: 2s;
+
+           -webkit-animation-iteration-count:2;
+           animation-iteration-count: 2;
+        }
+        
+
+
+        @-webkit-keyframes example{
+            0% {background-color: green;
+                left: 0px; top: 0px;}
+            25% {background-color: blue;
+                left: 200px; top: 0px;}
+            50% {background-color: red;
+                left: 0px; top: 200px;}
+            100% {background-color: yellow;
+                left: 0px; top: 0px;}
+
+
+                
+        }
+
+        @keyframes example{
+            0% {background-color: green;
+                left: 0px; top: 0px;}
+            25% {background-color: blue;
+                left: 200px; top: 0px;}
+            50% {background-color: red;
+                left: 0px; top: 200px;}
+            100% {background-color: yellow;
+                left: 0px; top: 0px;}
+
+
+                
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>2초 지연 2회 실행.</p>
+    <div class="sample"></div>
+    
+</body>
+</html>

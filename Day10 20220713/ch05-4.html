@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>2개 열 합치기</h4>
+
+    <table>
+        <tr>
+            <th>이름</th>
+            <th colspan="2">전화번호</th>
+        </tr>
+        <tr>
+            <td>이정우</td>
+            <td>02-325-0836</td>
+            <td>010-1111-1111</td>
+        </tr>
+
+    </table>
+
+    <h4>2개 행 합치기</h4>
+    <table>
+        <tr>
+            <th>이름</th>
+            <td>이정우</td>
+        </tr>
+        <tr>
+            <th rowspan="2">전화번호</th> 
+            <td>02-328-1111</td>
+        </tr>
+        <tr>
+            <td>010-1111-1111</td>
+        </tr>
+    </table>
+</body>
+</html>

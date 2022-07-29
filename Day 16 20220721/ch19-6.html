@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .sample{
+            width: 100px;
+            height: 100px;
+            background: green;
+            border-style: solid;
+            border-radius: 0px;
+            border-width:1px;
+            border-color:black;
+            margin-left: 0px;
+            
+           -webkit-animation-name: example;
+           animation-name:example;
+
+           -webkit-animation-duration: 8s;
+           animation-duration: 8s;
+        }
+        
+
+
+        @-webkit-keyframes example{
+            0% {background-color: green;
+                border-radius: 0px;
+                border-width: 2px;}
+            25% {background-color: blue;
+                border-radius: 20px;
+                border-width: 4px;}
+            50% {background-color: red;
+                border-radius: 40px;
+                border-width: 6px;}
+            100% {background-color: yellow;
+                border-radius: 60px;
+                border-width: 8px;}
+
+
+                
+        }
+
+        @keyframes example{
+            0% {background-color: green;
+                border-radius: 0px;
+                border-width: 2px;}
+            25% {background-color: blue;
+                border-radius: 20px;
+                border-width: 4px;}
+            50% {background-color: red;
+                border-radius: 40px;
+                border-width: 6px;}
+            100% {background-color: yellow;
+                border-radius: 60px;
+                border-width: 8px;}
+
+
+                
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>8초동안 애니메이션이 실행됩니다.</p>
+    <div class="sample"></div>
+    <p>실행이 끝나면 초기 상태로 표시됩니다.</p>
+   
+    
+
+    
+
+    
+</body>
+</html>

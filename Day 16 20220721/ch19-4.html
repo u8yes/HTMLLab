@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .sample1{
+            width: 100px;
+            height: 100px;
+            background: yellow;
+
+            -webkit-trasition: width 2s, height 4s;
+            -webkit-transform: 6s;
+            transition: width 2s, height 4s;
+            transform: 6s;
+        }
+
+
+        .sample1:hover{
+            width:200px;
+            height: 200px;
+
+            -webkit-trasform: rotate(180deg);
+            transform: rotate(60deg);
+        }
+
+        .sample2{
+            width: 100px;
+            height: 100px;
+            background: green;
+
+            -webkit-trasition: width 2s, height 4s;
+            -webkit-transform: 6s;
+            transition: width 2s, height 4s;
+            transform: 6s;
+        }
+       
+        .sample2:hover{
+            width:200px;
+            height: 200px;
+
+            -webkit-transform: skewX(20deg);
+            transform: skewX(20deg);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>trasition과 transform:rotate</p>
+    <div class="sample1"></div>
+    <p>trasition과 transform:skewX</p>
+    <div class="sample2"></div>
+
+    
+
+    
+</body>
+</html>

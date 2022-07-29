@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .sample1{
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            -webkit-transform: width 4s;
+            transition: width 4s;
+        }
+
+        .sample1:hover{
+            width:400px;
+        }
+        .sample2{
+            width: 100px;
+            height: 100px;
+            background: green;
+
+            -webkit-transition: width 8s, height 8s;
+            transition: width 8s, height 8s;
+        }
+        .sample2:hover{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>박스에 마우스를 올리면 4초 동안 너비가 4배 늘어납니다.</p>
+
+    <div class="sample1"></div>
+
+    <p>박스에 마우스를 올리면 8초 동안 너비와 높이가 2배 늘어납니다.</p>
+    <div class="sample2"></div>
+</body>
+</html>

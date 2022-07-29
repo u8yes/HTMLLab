@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .magazine{
+            /* 나누어지는 열의 개수를 지정합니다. */
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+            /* 열의 너비를 지정합니다. */
+            -webkit-column-width: 100px;
+            -moz-column-width: 100px;
+            column-width: 100px;
+            /* 열 사이의 간격을 지정합니다. */
+            -webkit-column-gap: 40px;
+            -moz-column-gap: 40px;
+            column-gap: 30px;
+            /* 열을 구분하는 선의 종류를 지정합니다. */
+            -webkit-column-rule-style: solid;
+            -moz-column-rule-style: solid;
+            column-rule-style: dotted;
+            /* 열을 구분하는 선의 두께를 지정합니다. */
+            -webkit-column-rule-width: 3px;
+            -moz-column-rule-width: 3px;
+            column-rule-width: 3px;
+            /* 열을 구분하는 선의 색상을 지정합니다. */
+            -webkit-column-rule-color: green;
+            -moz-column-rule-color: green;
+            column-rule-color: greenyellow;
+        }
+        h3{
+            /* 몇 개 열에 걸쳐 표시할 것인지를 지정합니다. "all"이나 기본값인 "1"을 지정할 수 있습니다. */
+            -webkit-column-span: all;
+            column-span: all;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="magazine">
+        <h3>100세 건강 팁</h3>
+        "내가 먹는 것이 바로 나다"
+        서양의학의 아버지라고 불리는 그리스의 의학자 히포크라테스가 한 말입니다.
+        "식약동원"
+        우리나라의 한의학에서는 약과 먹거리를 같은 것으로 간주합니다.
+        그렇다면 나를 만드는 약이 바로 먹거리라는 얘기가 됩니다. 
+        동서양이 예로부터 의견 일치를 본 진리다. 
+        이제 현대 의학은 건강을 지켜주는 숲퍼 푸드를 제시하고 있는데 
+        수퍼 푸드라고 해서 귀하고 대단한 음식이 아니다.
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .sample1{
+            border: 10px double darkred;
+            padding: 20px;
+            background-color:yellow;
+        }
+        .sample2{
+            border: 10px double darkred;
+            padding:20px;
+            background-color: yellow;
+            background-clip: padding-box;
+        }
+        .sample3{
+            border: 10px double darkred;
+            padding: 20px;
+            background-color: yellow;
+            background-clip:content-box;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sample1">
+        <p>background-clip 지정 안함</p>
+        <p>background-clip 지정 안함</p>
+    </div>
+    <br>
+    <div class="sample2">
+        <p>background-clip: padding-box: 지정함</p>
+        <p>background-clip: padding-box: 지정함</p>
+    </div>
+    <br>
+    <div class="sample3">
+        <p>background-clip: content-box: 지정함</p>
+        <p>background-clip: content-box: 지정함</p>
+    </div>
+</body>
+</html>
